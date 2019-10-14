@@ -1,0 +1,14 @@
+{
+  "name": "math-project",
+  "version": "1.0.0",
+  "description": "Math project for school",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "CodePebble Dev",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
