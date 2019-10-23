@@ -3,10 +3,32 @@
 
 <head>
     <title>Geometry - Advertisement</title>
+    <link href="https://fonts.googleapis.com/css?family=Monda:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 
 <body>
+    <div id="title">
+        <span>“Work Hard. Have Fun. Make History.”</span>
+        <!-- <button>Info</button> -->
+    </div>
+    <div id="content">
+        <div id="dir">
+            <span class="dir_c" id="d1" onmouseover="document.getElementById('c1').style.display = 'block';" onmouseout="document.getElementById('c1').style.display = 'none';">Conditional</span> -
+            <span class="dir_c" id="d2" onmouseover="document.getElementById('c2').style.display = 'block';" onmouseout="document.getElementById('c2').style.display = 'none';">Inverse</span> -
+            <span class="dir_c" id="d3" onmouseover="document.getElementById('c3').style.display = 'block';" onmouseout="document.getElementById('c3').style.display = 'none';">Converse</span> -
+            <span class="dir_c" id="d4" onmouseover="document.getElementById('c4').style.display = 'block';" onmouseout="document.getElementById('c4').style.display = 'none';">Contrapositive</span> -
+            <span class="dir_c" id="d5" onmouseover="document.getElementById('c5').style.display = 'block';" onmouseout="document.getElementById('c5').style.display = 'none';">Biconditional</span>
+        </div>
+        <div id="collection">
+            <span class="ctxt" id="c1">If you work hard, Then you will have fun and make history<br /><span style="color: #b53845 !important;">False</span></span>
+            <span class="ctxt" id="c2">If you do not work hard, Then you won't have fun or make history<br /><span style="color: #35ab66 !important;">True</span></span>
+            <span class="ctxt" id="c3">If you have fun and make history, then you are working hard<br /><span style="color: #35ab66 !important;">True</span></span>
+            <span class="ctxt" id="c4">If you are not having fun and making history, then you are not working hard<br /><span style="color: #b53845 !important;">False</span></span>
+            <span class="ctxt" id="c5">You will have fun and make history if and only if you work hard<br /><span style="color: #35ab66 !important;">True</span></span>
+
+        </div>
+    </div>
 
 </body>
 
