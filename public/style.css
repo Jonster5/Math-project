@@ -17,6 +17,13 @@ body {
     justify-content: center;
 }
 
+#title a {
+    margin-top: 150px;
+    text-decoration: none;
+    color: gold;
+    font-family: 'Monda', sans-serif;
+}
+
 #title span {
     position: absolute;
     top: 20px;
@@ -69,4 +76,11 @@ body {
     font-size: 30px;
     transition-duration: 0.2s;
     display: none;
+}
+
+.sub_t {
+    color: #ddd;
+    font-size: 20px;
+    line-height: 30px !important;
+    max-width: 500px;
 }
