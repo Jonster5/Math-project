@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 
-<body>
+<body onload="window.scrollTo({top: 0, left: 0, behavior: 'smooth'});">
     <div id="title">
         <span>“Work Hard. Have Fun. Make History.”</span>
         <a target="_blank" href="https://www.istrategyconference.com/from-a-to-z-deconstructing-amazons-slogan/">istrategyconference.com</a>
@@ -39,18 +39,30 @@
             </span>
             <span class="ctxt" id="c5">You will have fun and make history if and only if you work hard
                 <br /><span style="color: #b53845 !important;">False</span>
-            <div class="sub_t">This one is false for the same reason the Contrapositive is false. You don't need to work hard in order to have fun. Your chance of making history will most likely improve if you work hard. However, you can do other things that don't require as much effort in order to make history</div>
+            <div class="sub_t">This one is false for the same reason the Contrapositive is false. You don't need to work hard in order to have fun. Your chance of making history will most likely improve if you work hard. However, you can do other things that don't require
+                as much effort in order to make history</div>
             </span>
         </div>
     </div>
     <div id="thing">
-        <span id="tt"></span>
+        <span id="tt">Final Thoughts</span>
+        <div id="fff">
+            After examining this slogan in all of its forms, I have concluded that it is not a very realistic slogan. Even though it is not a very realistic, it is appealing and quite catchy.
+            <br /><br /> Even though the slogan is very dishonest, I do not mind it that much and I will still buy from Amazon whenever I feel like it.
+        </div>
     </div>
     <script>
         var counter = 0;
 
         function count() {
             counter++;
+            if (counter === 5) {
+                window.scrollTo({
+                    top: 600,
+                    left: 0,
+                    behavior: 'smooth'
+                });
+            }
         }
     </script>
 </body>
